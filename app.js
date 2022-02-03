@@ -10,6 +10,8 @@ function onLoginSubmit(event) {
     loginForm.classList.toggle(HIDDEN_CLASSNAME);
 
     const username = loginInput.value;
+    localStorage.setItem("username", username);
+
     greeting.innerText = `Hello ${username}`;
     greeting.classList.toggle(HIDDEN_CLASSNAME);
 }
