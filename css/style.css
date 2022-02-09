@@ -1,3 +1,103 @@
 .hidden {
   display: none;
 }
+
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+#background {
+  position: fixed;
+  top: -55px;
+}
+
+#background-image {
+  height: 112vh;
+}
+
+#context {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#login-form {
+  margin: 0px;
+  padding: 0px;
+}
+
+#login-form input {
+  margin: 0px;
+  padding: 0px;
+  width: 500px;
+  height: 150px;
+  border: none;
+  font-size: 50px;
+  background: none;
+  color: white;
+}
+
+#login-form input::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+#login-form button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#login-form button:hover {
+  background-color: black;
+}
+
+#greeting {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-size: 70px;
+  font-weight: 100;
+  height: 150px;
+}
+
+#clock {
+  margin: 0px;
+  color: white;
+  opacity: 0.8;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+#quote-weather-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+#quote span:first-child {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#weather {
+  color: white;
+}
